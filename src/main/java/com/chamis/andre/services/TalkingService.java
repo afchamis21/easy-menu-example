@@ -1,6 +1,6 @@
-package org.easy.menu.services;
+package com.chamis.andre.services;
 
-import org.easy.menu.annotation.Injectable;
+import com.chamis.andre.annotation.Injectable;
 
 @Injectable
 public class TalkingService {

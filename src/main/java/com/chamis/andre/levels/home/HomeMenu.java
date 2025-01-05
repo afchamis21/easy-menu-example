@@ -1,10 +1,10 @@
-package org.easy.menu.levels.home;
+package com.chamis.andre.levels.home;
 
-import org.easy.menu.annotation.Action;
-import org.easy.menu.annotation.Home;
-import org.easy.menu.domain.MenuLevel;
-import org.easy.menu.exception.UnknownLevelException;
-import org.easy.menu.levels.communication.CommunicationMenu;
+import com.chamis.andre.annotation.Action;
+import com.chamis.andre.annotation.Home;
+import com.chamis.andre.domain.MenuLevel;
+import com.chamis.andre.exception.UnknownLevelException;
+import com.chamis.andre.levels.communication.CommunicationMenu;
 
 @Home
 public class HomeMenu extends MenuLevel {

@@ -1,10 +1,10 @@
-package org.easy.menu.levels.communication;
+package com.chamis.andre.levels.communication;
 
-import org.easy.menu.annotation.Action;
-import org.easy.menu.domain.MenuLevel;
-import org.easy.menu.exception.UnknownLevelException;
-import org.easy.menu.levels.home.HomeMenu;
-import org.easy.menu.services.TalkingService;
+import com.chamis.andre.annotation.Action;
+import com.chamis.andre.domain.MenuLevel;
+import com.chamis.andre.exception.UnknownLevelException;
+import com.chamis.andre.levels.home.HomeMenu;
+import com.chamis.andre.services.TalkingService;
 
 public class CommunicationMenu extends MenuLevel {
     private final TalkingService talkingService;
